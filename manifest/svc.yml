@@ -8,6 +8,6 @@ spec:
   selector:
     app: docker-case-study
   ports:
-    - port: 80
-      targetPort: 80
+    - port: 3200
+      targetPort: 3200
       protocol: TCP
