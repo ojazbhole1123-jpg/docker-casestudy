@@ -4,6 +4,7 @@ metadata:
   name: docker-case-study
   namespace: default
 spec:
+  type: LoadBalancer
   selector:
     app: docker-case-study
   ports:
